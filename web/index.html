@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VisionHash</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>VisionHash</h1>
+        <p>Compare two images with perceptual hashing.</p>
+      </header>
+      <section class="panel">
+        <label>Image A <input id="imageA" type="file" accept="image/*" /></label>
+        <label>Image B <input id="imageB" type="file" accept="image/*" /></label>
+        <button id="compareButton">Compare</button>
+      </section>
+      <section class="panel">
+        <h2>Result</h2>
+        <p id="result">Upload two images to compare.</p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
