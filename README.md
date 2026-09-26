@@ -1,12 +1,14 @@
-# VisionHash
+# Perceptual Image Deduplicator
 
-VisionHash compares images using perceptual hashing (dHash) to detect near-duplicates.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+
+Perceptual Image Deduplicator compares images using perceptual hashing (dHash) to detect near-duplicates.
 
 ## Quick start
 
 ```bash
 pip install -r requirements.txt
-python -m app.server --port 5173
+python -m perceptual_image_deduplicator.server --port 5173
 ```
 
 Open http://localhost:5173
